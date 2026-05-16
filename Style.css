@@ -47,7 +47,7 @@
         color: white;
         border-radius: 15px;
         margin-top: 30px;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.15,);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.15);
         position: relative;
         overflow: hidden;
         animation: fadeIn 1s ease;
@@ -159,6 +159,6 @@
         }
         to {
             opacity: 1;
-            transform: rotateY(0);
+            transform: translateY(0);
         }
     }
